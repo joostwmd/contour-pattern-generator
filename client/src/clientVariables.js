@@ -1,7 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Home';
-
 //for development
 const CLIENT_URL = 'http://localhost:3000'
 const SERVER_URL = 'http://localhost:5005'
@@ -13,14 +9,4 @@ const SERVER_URL = 'http://localhost:5005'
 
 
 
-
-
-function App() {
-  return (
-    <Home />
-  );
-}
-
-
-
-export default App;
+module.exports = {CLIENT_URL, SERVER_URL}
